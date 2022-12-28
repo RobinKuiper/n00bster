@@ -5,11 +5,13 @@
   "main": "index.js",
   "scripts": {
     "dev": "concurrently \"php -S localhost:8080 -t Backend/public/\" \"cd Frontend && npm run dev\"",
-    "typecheck": "cd Frontend && tsc --noEmit"
+    "typecheck": "cd Frontend && tsc --noEmit",
+    "new": "gatsby new noobsterSourcePlugin https://github.com/gatsbyjs/gatsby-starter-plugin"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "concurrently": "^7.6.0"
+    "concurrently": "^7.6.0",
+    "gatsby": "^5.3.3"
   }
 }

@@ -10,7 +10,7 @@
       <option name="config" value="$PROJECT_DIR$/Backend/phpstan.neon" />
     </inspection_tool>
     <inspection_tool class="RequiredAttributes" enabled="true" level="WARNING" enabled_by_default="true">
-      <option name="myAdditionalRequiredHtmlAttributes" value="data" />
+      <option name="myAdditionalRequiredHtmlAttributes" value="data,location,navigate,pageContext" />
     </inspection_tool>
   </profile>
 </component>

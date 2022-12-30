@@ -4,6 +4,3 @@
 [submodule "Frontend"]
 	path = Frontend
 	url = ./Frontend
-[submodule "noobsterSourcePlugin"]
-	path = noobsterSourcePlugin
-	url = ./noobsterSourcePlugin

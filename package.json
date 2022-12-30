@@ -4,14 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "concurrently \"php -S localhost:8080 -t Backend/public/\" \"cd Frontend && npm run dev\"",
-    "typecheck": "cd Frontend && tsc --noEmit",
-    "new": "gatsby new noobsterSourcePlugin https://github.com/gatsbyjs/gatsby-starter-plugin"
+    "dev": "concurrently \"php -S localhost:8080 -t Backend/public/\" \"cd Frontend && yarn start\"",
+    "typecheck": "cd Frontend && tsc --noEmit"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "concurrently": "^7.6.0",
-    "gatsby": "^5.3.3"
+    "concurrently": "^7.6.0"
+  },
+  "devDependencies": {
+    "@neutrinojs/react": "^9.5.0",
+    "neutrino": "^9.5.0"
   }
 }

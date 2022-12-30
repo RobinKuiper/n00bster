@@ -12,8 +12,5 @@
   "dependencies": {
     "concurrently": "^7.6.0"
   },
-  "devDependencies": {
-    "@neutrinojs/react": "^9.5.0",
-    "neutrino": "^9.5.0"
-  }
+  "devDependencies": {}
 }

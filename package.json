@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "concurrently \"php -S localhost:8080 -t Backend/public/\" \"cd Frontend && yarn start\"",
+    "schema:update": "cd Backend && composer schema:update",
+    "schema:drop": "cd Backend && composer schema:drop",
     "typecheck": "cd Frontend && tsc --noEmit"
   },
   "author": "",

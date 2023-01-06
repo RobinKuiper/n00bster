@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "concurrently \"php -S localhost:8080 -t Backend/public/\" \"cd Frontend && yarn start\"",
+    "dev": "concurrently \"php -S localhost:8080 -t Backend/public/\" \"cd Frontend && yarn start\" \"cd Websocket && yarn start\"",
+    "server": "php -S localhost:8080 -t Backend/public/",
     "schema:update": "cd Backend && composer schema:update",
     "schema:drop": "cd Backend && composer schema:drop",
     "typecheck": "cd Frontend && tsc --noEmit"

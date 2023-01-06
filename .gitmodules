@@ -4,3 +4,6 @@
 [submodule "Frontend"]
 	path = Frontend
 	url = ./Frontend
+[submodule "Websocket"]
+	path = Websocket
+	url = ./Websocket/

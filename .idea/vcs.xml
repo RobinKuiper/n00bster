@@ -11,6 +11,7 @@
     <mapping directory="$PROJECT_DIR$/Backend" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Frontend" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Frontend/plugins/NoobsterSourcePlugin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Websocket" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/noobsterSourcePlugin" vcs="Git" />
   </component>
 </project>

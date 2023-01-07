@@ -5,10 +5,13 @@
   "main": "index.js",
   "scripts": {
     "dev": "concurrently \"php -S localhost:8080 -t Backend/public/\" \"cd Frontend && yarn start\" \"cd Websocket && yarn start\"",
-    "server": "php -S localhost:8080 -t Backend/public/",
+    "server:php": "php -S localhost:8080 -t Backend/public/",
+    "server:ws": "cd Websocket && yarn start",
+    "client": "cd Frontend && yarn start",
     "schema:update": "cd Backend && composer schema:update",
     "schema:drop": "cd Backend && composer schema:drop",
-    "typecheck": "cd Frontend && tsc --noEmit"
+    "typecheck": "cd Frontend && yarn typecheck",
+    "typesync": "cd Frontend && yarn typesync"
   },
   "author": "",
   "license": "ISC",

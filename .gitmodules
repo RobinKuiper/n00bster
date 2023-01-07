@@ -1,9 +1,9 @@
 [submodule "Backend"]
 	path = Backend
-	url = ./Backend
+	url = https://github.com/RobinKuiper/n00bsterPlanner
 [submodule "Frontend"]
 	path = Frontend
-	url = ./Frontend
+	url = https://github.com/RobinKuiper/n00bster_frontend
 [submodule "Websocket"]
 	path = Websocket
-	url = ./Websocket/
+	url = https://github.com/RobinKuiper/n00bster_ws

@@ -1,0 +1,41 @@
+version: "3.7"
+services:
+
+  server:
+    container_name: noobster_backend
+    build:
+      context: ./Backend/docker
+      dockerfile: Dockerfile
+    environment:
+      - DOCKER=1
+      - XDEBUG_CONFIG=remote_host=host.docker.internal
+    env_file:
+      - ./Backend/docker/prod.env
+    ports:
+      - "8080:80"
+
+  websocket:
+    container_name: noobster_websocket
+    build:
+      context: ./Websocket/docker
+      dockerfile: Websocket/docker/Dockerfile
+    environment:
+      - DOCKER=1
+    env_file:
+      - ./Websocket/docker/.env
+    ports:
+      - "8081:80"
+
+  frontend:
+    container_name: noobster_frontend
+    build:
+      context: ./Frontend/docker
+      dockerfile: Frontend/docker/Dockerfile
+    env_file:
+      - Frontend/docker/.env
+    ports:
+      - "80:80"
+    depends_on:
+      - server
+      - websocket
+

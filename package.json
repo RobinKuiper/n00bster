@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "devnew": "concurrently \"composer docker:dev\" \"cd Frontend && yarn start\" \"cd Websocket && yarn start\"",
     "dev": "concurrently \"php -S localhost:8080 -t Backend/public/\" \"cd Frontend && yarn start\" \"cd Websocket && yarn start\"",
     "server:php": "php -S localhost:8080 -t Backend/public/",
     "server:ws": "cd Websocket && yarn start",

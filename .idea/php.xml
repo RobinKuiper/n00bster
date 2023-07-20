@@ -108,6 +108,14 @@
       <path value="$PROJECT_DIR$/Backend/vendor/symfony/uid" />
       <path value="$PROJECT_DIR$/Backend/vendor/symfony/translation-contracts" />
       <path value="$PROJECT_DIR$/Backend/vendor/elephantio/elephant.io" />
+      <path value="$PROJECT_DIR$/Backend/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/Backend/vendor/cakephp/core" />
+      <path value="$PROJECT_DIR$/Backend/vendor/cakephp/datasource" />
+      <path value="$PROJECT_DIR$/Backend/vendor/cakephp/database" />
+      <path value="$PROJECT_DIR$/Backend/vendor/cakephp/utility" />
+      <path value="$PROJECT_DIR$/Backend/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/Backend/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/Backend/vendor/phpoption/phpoption" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.0">

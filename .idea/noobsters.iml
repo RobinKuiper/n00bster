@@ -102,6 +102,9 @@
       <excludeFolder url="file://$MODULE_DIR$/Backend/vendor/symfony/uid" />
       <excludeFolder url="file://$MODULE_DIR$/Backend/vendor/symfony/translation-contracts" />
       <excludeFolder url="file://$MODULE_DIR$/Backend/vendor/elephantio/elephant.io" />
+      <excludeFolder url="file://$MODULE_DIR$/Backend/vendor/vlucas/phpdotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/Backend/vendor/graham-campbell/result-type" />
+      <excludeFolder url="file://$MODULE_DIR$/Backend/vendor/phpoption/phpoption" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

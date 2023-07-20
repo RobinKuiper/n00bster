@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "devnew": "concurrently \"composer docker:dev\" \"cd Frontend && yarn start\" \"cd Websocket && yarn start\"",
-    "dev": "concurrently \"php -S localhost:8080 -t Backend/public/\" \"cd Frontend && yarn start\" \"cd Websocket && yarn start\"",
-    "server:php": "php -S localhost:8080 -t Backend/public/",
+    "dev": "concurrently \"yarn server:api\" \"yarn client\" \"yarn server:ws\"",
+    "server:api": "php -S localhost:8080 -t Backend/public/",
     "server:ws": "cd Websocket && yarn start",
     "client": "cd Frontend && yarn start",
     "schema:update": "cd Backend && composer schema:update",
